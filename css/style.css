@@ -496,7 +496,8 @@ p{
   font-weight: bold;
   font-size: 14px;
   line-height: 150%;
-  color: #F5453D;  
+  color: #F5453D; 
+  position: relative; 
 }
 .card-prise-span{
   font-family: Inter;
@@ -580,7 +581,115 @@ p{
 .card-link:hover{
   opacity: 1;
 }
+.prise-cards{
+  position: relative;
+  overflow: hidden;
+}
+.card-img-free{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 .card-link:active{
   background: #F5443B;
   color: #fff;
+}
+/* about */
+#about{
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+.about-des{
+  background: linear-gradient(102.01deg, #23265C 1.96%, #352A56 101.68%);
+  border-radius: 40px;  
+  padding: 100px 100px;
+}
+.about-title{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 47.2727px;
+  line-height: 160%;
+  color: #FFFFFF;
+  opacity: 0.7;  
+  margin-bottom: 12px;
+}
+.about-text{
+  margin-bottom: 32px;
+}
+.about-link{
+  display: block;
+  margin-right: 25px;
+}
+.about-text{
+  width: 406px;
+}
+.about-imgs{
+  position: relative;
+}
+.about-img{
+  position: absolute;
+  right: 0;
+  top: -295px;
+}
+/* foter */
+#foter-elements{
+  padding: 48px 0 30px 0;
+}
+.foter-text{
+  width: 234px;
+}
+.foter-socials{
+  margin-top: 23px;
+}
+.social-items + .social-items{
+  margin-left: 32px;
+}
+.foter-text{
+  line-height: 170%;
+}
+.foter-list li{
+  margin-bottom: 20px;
+}
+.foter-title{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 24px;
+  
+}
+.texniks-img{
+  position: relative;
+}
+.statistic{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  color: #FFFFFF;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 6px 16px;
+  width: 88px;
+  left: 12px;
+  top: 76%;
+}
+
+.foter-last-text{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8F91D0;
+  margin-top: 86px;
+
+}
+.bx-copyright{
+  vertical-align: middle;
 }
